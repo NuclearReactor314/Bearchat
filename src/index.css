@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  @apply bg-background text-foreground font-sans;
+}
+
+* {
+  @apply box-border;
+}
